@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PARK YEONG SEO | Portfolio</title>
+<style>
+:root{--navy:#101B36;--blue:#527DFF;--white:#fff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#0A1225;color:var(--white);font-family:Arial,sans-serif}
+header{display:flex;justify-content:space-between;align-items:center;padding:24px 6%;border-bottom:1px solid #ffffff25}
+.logo{font-size:15px;font-weight:800;letter-spacing:2px}
+nav a{color:white;text-decoration:none;font-size:13px;margin-left:20px}
+.hero{min-height:85vh;display:flex;flex-direction:column;justify-content:center;padding:8%;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;width:320px;height:320px;border:60px solid var(--blue);border-radius:50%;right:-130px;top:10%;opacity:.45;z-index:0}
+.hero>*{position:relative;z-index:1}
+.tag{color:#a9c0ff;letter-spacing:4px;font-size:12px}
+h1{font-size:clamp(52px,9vw,140px);line-height:.95;letter-spacing:-4px;margin:25px 0}
+h2{font-size:clamp(35px,6vw,80px);letter-spacing:-2px}
+.highlight{color:var(--blue)}
+.subtitle{font-size:18px;color:#c7d3eb}
+.buttons{display:flex;gap:12px;margin-top:35px;flex-wrap:wrap}
+.btn{padding:16px 24px;border:1px solid #6684bb;color:white;text-decoration:none;font-size:13px}
+.btn.primary{background:var(--blue);border-color:var(--blue)}
+section{padding:100px 8%;border-top:1px solid #ffffff20}
+.section-label{color:var(--blue);letter-spacing:3px;font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.card{background:#142344;padding:35px;min-height:210px;transition:.3s}
+.card:hover{transform:translateY(-5px);background:#1c3261}
+.card a{color:white;text-decoration:none}
+.card h3{font-size:25px}
+.card p{color:#b8c9e8;line-height:1.7}
+footer{padding:50px 8%;color:#8299c4}
+@media(max-width:700px){
+header{padding:20px}
+nav a{margin-left:10px}
+.hero{padding:35px 7%;min-height:75vh}
+h1{letter-spacing:-2px}
+.grid{grid-template-columns:1fr}
+section{padding:70px 7%}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">PARK YEONG SEO</div>
+<nav><a href="#about">ABOUT</a><a href="#projects">PROJECTS</a></nav>
+</header>
+
+<main>
+<div class="hero">
+<p class="tag">CREATIVE PORTFOLIO — 2026</p>
+<h1>PARK<br>YEONG<br><span class="highlight">SEO.</span></h1>
+<h2>BEYOND EXPERIENCE,<br><span class="highlight">TOWARD GROWTH.</span></h2>
+<p class="subtitle">경험을 역량으로, 역량을 가능성으로.</p>
+<div class="buttons">
+<a class="btn primary" href="#about">ABOUT ME ↗</a>
+<a class="btn" href="#projects">VIEW PROJECTS ↗</a>
+</div>
+</div>
+
+<section id="about">
+<p class="section-label">01 / ABOUT ME</p>
+<h2>EXPERIENCE<br><span class="highlight">BUILDS GROWTH.</span></h2>
+<p class="subtitle">부산외국어대학교 · 국제마케팅 전공 · 독일어 복수전공</p>
+<p style="max-width:680px;line-height:2">
+저는 다양한 경험을 통해 새로운 관점을 발견하고, 이를 의미 있는 결과로 연결하는 사람입니다.
+국제마케팅을 전공하며 글로벌 시장과 브랜드 커뮤니케이션에 관심을 키워 왔습니다.
+교내 활동, 프로젝트, 해외 경험을 통해 기획력과 소통 능력을 쌓았으며,
+서로 다른 환경과 문화를 이해하고 연결하는 마케터로 성장하고자 합니다.
+</p>
+</section>
+
+<section id="projects">
+<p class="section-label">02 / SELECTED WORKS</p>
+<h2>PROJECTS<span class="highlight">.</span></h2>
+<div class="grid">
+<div class="card">
+<h3>01 / BUSAN ON</h3>
+<p>AI-Based Busan Travel Guide</p>
+<p>외국인 관광객을 위한 AI 기반 부산 여행 가이드 서비스 기획.</p>
+</div>
+<div class="card">
+<h3>02 / AI VIDEO PROJECT</h3>
+<p>실손24 서비스 홍보 영상 기획</p>
+<p>AI 영상 콘셉트, 스토리라인 및 캐릭터 연출 기획.</p>
+</div>
+</div>
+</section>
+
+<section id="experience">
+<p class="section-label">03 / EXPERIENCE</p>
+<h2>MY <span class="highlight">JOURNEY.</span></h2>
+<div class="grid">
+<div class="card"><h3>CAMPUS ACTIVITIES</h3><p>Department Student Council · Promotion Team Leader</p></div>
+<div class="card"><h3>GLOBAL EXPERIENCE</h3><p>Australia Working Holiday · Sydney · 2025</p></div>
+<div class="card"><h3>WORK EXPERIENCE</h3><p>Customer Service · Communication · Teamwork</p></div>
+<div class="card"><h3>MENTORING</h3><p>Career Mentoring · 라켓팀 · 8 Sessions</p></div>
+</div>
+</section>
+
+<section>
+<p class="section-label">04 / CAREER VISION</p>
+<h2>THINK GLOBALLY.<br><span class="highlight">CREATE MEANINGFULLY.</span></h2>
+<p class="subtitle">브랜드와 사람을 연결하는 글로벌 마케터로 성장하겠습니다.</p>
+</section>
+</main>
+<footer>© 2026 PARK YEONG SEO — PORTFOLIO</footer>
+</body>
+</html>
